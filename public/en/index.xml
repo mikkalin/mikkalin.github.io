@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mikaka on 咪卡咔</title>
+    <link>https://mikkalin.github.io/en/</link>
+    <description>Recent content in Mikaka on 咪卡咔</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 27 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mikkalin.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://mikkalin.github.io/en/page/about/</link>
+      <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikkalin.github.io/en/page/about/</guid>
+      <description>About Me Hi, I&amp;rsquo;m Mika, a digital marketer.
+MBTI fluctuates between ISFJ, INTP, and ISFP.
+I have an astonishing drive for things that interest me, but once I take action, it only lasts for three minutes. Most of the time, I suffer from procrastination, where my mind is active but my body doesn&amp;rsquo;t follow suit.
+After completing my thesis and finishing the anxiety-inducing defense, considering the limited availability of online information regarding degree programs for part-time student, I wanted to write a blog to share my experiences with juniors.</description>
+    </item>
+    
+    <item>
+      <title>[3C] iMac 偽開箱＆網路設定問題</title>
+      <link>https://mikkalin.github.io/en/blog/imac-unbox-and-internet-issue/</link>
+      <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikkalin.github.io/en/blog/imac-unbox-and-internet-issue/</guid>
+      <description>&lt;p&gt;因為一個說來話很長的原因，要去最近購物運很差的K友人家幫她設定新買的 iMac 順便約飯（發現約飯的兩位都是K友人，那我們就稱這位比較年少的 iMac 新用戶為友人K二好了（喂）。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>咪卡咔</title>
+    <link>https://mikkalin.github.io/tw/</link>
+    <description>Recent content on 咪卡咔</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <lastBuildDate>Sat, 27 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mikkalin.github.io/tw/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://mikkalin.github.io/tw/page/about/</link>
+      <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikkalin.github.io/tw/page/about/</guid>
+      <description>About Me 嗨嗨我是咪卡，一個理組行銷人。 MBTI 在 ISFJ、INTP、ISFP 之間反覆橫跳。 對感興趣的事行動力驚人得可怕，衝出去後就只剩下三分鐘熱度，更</description>
+    </item>
+    
+    <item>
+      <title>[料理] 全家的 Fami 煮煮粽子</title>
+      <link>https://mikkalin.github.io/tw/blog/familymart-rice-dumpling/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikkalin.github.io/tw/blog/familymart-rice-dumpling/</guid>
+      <description>&lt;p&gt;我家附近的全家偶爾會在群組內辦活動，我感覺自己還蠻常獲獎的，上次抽到砂糖橘這次抽到 Fami 煮煮的粽子🤣&lt;/p&gt;
+&lt;p&gt;不知道是不是把運氣都用在全家了所以才一直沒有中樂透（欸）&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[3C] iMac 偽開箱＆網路設定問題</title>
+      <link>https://mikkalin.github.io/tw/blog/imac-unbox-and-internet-issue/</link>
+      <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikkalin.github.io/tw/blog/imac-unbox-and-internet-issue/</guid>
+      <description>&lt;p&gt;因為一個說來話很長的原因，要去最近購物運很差的K友人家幫她設定新買的 iMac 順便約飯（發現約飯的兩位都是K友人，那我們就稱這位比較年少的 iMac 新用戶為友人K二好了（喂）。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
