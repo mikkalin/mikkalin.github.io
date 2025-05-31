@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on 咪卡咔</title>
+    <link>https://mikaka.me/categories/blog/</link>
+    <description>Recent content in blog on 咪卡咔</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mikaka.me/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Blog] 用Hugo架設網誌成功了...嗎？</title>
+      <link>https://mikaka.me/blog/hugo-setting/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikaka.me/blog/hugo-setting/</guid>
+      <description>&lt;p&gt;我成功了嗎？
+如果有看到這篇文章就表示我成功了YA！&lt;/p&gt;
+&lt;p&gt;因為種種原因最後決定嘗試以 hugo 來架設網站，身為一個只會一點點微薄 css 跟 html 語法的人，所有的過程只能依靠 Google 大神（不過後來我有 Bandy 大神幫我，感謝 Bandy 拯救迷途的我QQ），這篇簡單總結一下一個程式小白（也可以稱為是文盲）的我在架設路上遇到的坑吧🥲&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
