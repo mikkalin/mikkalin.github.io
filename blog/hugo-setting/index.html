@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="tw" itemscope itemtype="http://schema.org/WebPage"><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" href="/image/favicon.png">
+
+  <title>
+  [Blog] 用Hugo架設網誌成功了...嗎？ - 咪卡咔
+  </title>
+  <meta name="description" content="自架網站之路真是道阻且長啊..." />
+  <meta name="author" content="咪卡" />
+  <meta name="generator" content="Hugo 0.112.3"><link
+    rel="stylesheet"
+    href="https://mikaka.me/css/styles.min.19a9c629ec18eb5c6759c7857470b30a85e90211ed1d1dcce7341610902754d0.css"
+    integrity="sha256-GanGKewY61xnWceFdHCzCoXpAhHtHR3M5zQWEJAnVNA="
+  />
+  
+  
+
+  <meta property="og:title" content="[Blog] 用Hugo架設網誌成功了...嗎？" />
+<meta property="og:description" content="自架網站之路真是道阻且長啊..." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mikaka.me/blog/hugo-setting/" /><meta property="og:image" content="https://mikaka.me/blog/hugo-setting/hugo-cover.png"/><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-05-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-05-30T00:00:00+00:00" />
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://mikaka.me/blog/hugo-setting/hugo-cover.png"/>
+<meta name="twitter:title" content="[Blog] 用Hugo架設網誌成功了...嗎？"/>
+<meta name="twitter:description" content="自架網站之路真是道阻且長啊..."/>
+
+  <meta itemprop="name" content="[Blog] 用Hugo架設網誌成功了...嗎？">
+<meta itemprop="description" content="自架網站之路真是道阻且長啊..."><meta itemprop="datePublished" content="2023-05-30T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-05-30T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1306"><meta itemprop="image" content="https://mikaka.me/blog/hugo-setting/hugo-cover.png">
+<meta itemprop="keywords" content="hugo,blog,github," />
+
+  
+  <meta name="lang" content="tw" />
+  
+</head>
+<body class="dark:bg-gray-800 dark:text-white relative flex flex-col min-h-screen"><header class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto relative">
+  <a href="https://mikaka.me/" class="capitalize font-extrabold text-2xl">
+    
+    <img src="/image/logo.png" alt="咪卡咔" class="h-8 max-w-full" />
+    
+  </a>
+  <button class="mobile-menu-button md:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <line x1="4" y1="8" x2="20" y2="8" />
+      <line x1="4" y1="16" x2="20" y2="16" />
+    </svg>
+  </button>
+  <ul class="mobile-menu absolute z-10 px-6 pb-6 md:p-0 top-full left-0 w-full md:w-auto md:relative hidden md:flex flex-col md:flex-row items-end md:items-center gap-4 lg:gap-6 bg-white dark:bg-gray-800">
+
+    
+    <li><a href="/page/about/">About</a></li>
+    
+    <li><a href="/blog">Blog</a></li>
+    
+    <li><a href="/categories">文章分類</a></li>
+    
+
+    
+    
+    <li class="flex items-center">
+      
+      
+      
+      
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5"
+        stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <circle cx="12" cy="12" r="9" />
+        <line x1="3.6" y1="9" x2="20.4" y2="9" />
+        <line x1="3.6" y1="15" x2="20.4" y2="15" />
+        <path d="M11.5 3a17 17 0 0 0 0 18" />
+        <path d="M12.5 3a17 17 0 0 1 0 18" />
+      </svg>
+      <a href="/en" lang="en">English</a>
+      
+      
+    </li>
+    
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="open-search inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="10" cy="10" r="7" />
+          <line x1="21" y1="21" x2="15" y2="15" />
+        </svg>
+      </span>
+    </li>
+    
+
+    
+  </ul>
+</header>
+<main class="flex-1">
+  
+  
+
+  
+
+  <article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+
+    <h1 class="text-2xl font-bold mb-2">[Blog] 用Hugo架設網誌成功了...嗎？</h1>
+    
+    <h5 class="text-sm flex items-center flex-wrap">
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <rect x="4" y="5" width="16" height="16" rx="2" />
+        <line x1="16" y1="3" x2="16" y2="7" />
+        <line x1="8" y1="3" x2="8" y2="7" />
+        <line x1="4" y1="11" x2="20" y2="11" />
+        <rect x="8" y="15" width="2" height="2" />
+      </svg>
+      發布於 
+  
+    May 30, 2023
+  
+
+
+      
+        &nbsp;&bull;&nbsp;
+      
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="12" cy="12" r="9" />
+        <polyline points="12 7 12 12 15 15" />
+      </svg>
+      3&nbsp;分鐘
+      &nbsp;&bull;
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <line x1="3" y1="6" x2="3" y2="19" />
+        <line x1="12" y1="6" x2="12" y2="19" />
+        <line x1="21" y1="6" x2="21" y2="19" />
+      </svg>
+      1306&nbsp;字
+      
+
+        &nbsp;&bull; 
+        <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 9V7C21 6.44772 20.5523 6 20 6H10L9 4H4L3.21115 5.57771C3.07229 5.85542 3 6.16165 3 6.47214V9" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M3.91321 20H20.0868C20.604 20 21.0359 19.6056 21.0827 19.0905L21.9009 10.0905C21.9541 9.50492 21.493 9 20.905 9H3.09503C2.507 9 2.0459 9.50492 2.09914 10.0905L2.91732 19.0905C2.96415 19.6056 3.39601 20 3.91321 20Z" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+          文章分類:&nbsp;
+          
+            
+            <div style="padding: 0px 3px 0px 3px;"><a class="hover:text-blue-400" href="/categories/blog/" style="text-decoration:none;">blog。</a></div>
+            
+          
+    </h5>
+    
+
+    
+
+    <p>我成功了嗎？
+如果有看到這篇文章就表示我成功了YA！</p>
+<p>因為種種原因最後決定嘗試以 hugo 來架設網站，身為一個只會一點點微薄 css 跟 html 語法的人，所有的過程只能依靠 Google 大神（不過後來我有 Bandy 大神幫我，感謝 Bandy 拯救迷途的我QQ），這篇簡單總結一下一個程式小白（也可以稱為是文盲）的我在架設路上遇到的坑吧🥲</p>
+<p>首先我用 <a href="https://brew.sh/" target="_blank" rel="noopener">brew</a>
+ 來安裝 <a href="https://gohugo.io/" target="_blank" rel="noopener">hugo</a>
+，目前為止透過終端機按照指示都沒有問題，主題我挑選了 <a href="https://themes.gohugo.io/themes/blist-hugo-theme/" target="_blank" rel="noopener">Blist</a>
+，過程主要參考 littlebookboy 的 <a href="https://ithelp.ithome.com.tw/users/20106430/ironman/3613" target="_blank" rel="noopener">Hugo 貼身打造個人部落格</a>
+ 系列。</p>
+<p>以下直接條列式我踩過的坑：</p>
+<ol>
+<li>
+<p>需要安裝 node.js<br />按照 Blist 主題的指示很快遇到第一個問題，那就是我沒有 <a href="https://nodejs.org/en" target="_blank" rel="noopener">node.js</a>
+，沒有就沒有啊，我就安裝嘛，這個我會！</p>
+</li>
+<li>
+<p>執行 npm install 失敗<br />Configuring theme 的第二個步驟我就遇到 <code>npm install</code> 失敗，看了一下應該是權限的問題，在指令前面加上 sudo 解決了，同理第三步的 <code>npm i -g postcss-cli</code> 也要用 sudo 來以管理者的權限執行。</p>
+</li>
+<li>
+<p>zsh: xxx command not found<br />接著遇到了 zsh command not found，查了一下是 path 的問題，我後來按照 <a href="https://bonze.tw/mac--e8-a7-a3-e6-b1-ba-zsh-command-not-found/" target="_blank" rel="noopener">skyroxas1521</a>
+ 提供的方法解決。</p>
+</li>
+<li>
+<p>Configuration File 更名<br />hugo 現在最新版本的 Configuration File 已經從 <code>Config.toml</code> 改為 <code>hugo.toml</code> 了，但目前網路上大部分（幾乎所有）的教學文章都還是以 Config.toml 來說明，所以記得看到 Config.toml 直接在心裡自動轉換為 hugo.toml 🤣</p>
+</li>
+<li>
+<p>中文字數統計<br />我用的主題是包含字數統計跟閱讀時間的，但他預設的語言包用的是英文、德文、法文，所以並沒有特別為中文字符的統計做設定，hugo 預設統計英文字符，如果要統計中文、日文、韓文要在 <code>hugo.toml</code> 中加上一行 <code>hasCJKLanguage = true</code></p>
+</li>
+<li>
+<p>不吃行內 html<br />如果運行在本機端時發現在 <code>.md</code> 檔案內寫的 html 都沒有反應的話，需要在 <code>hugo.toml</code> 中加上</p>
+<blockquote>
+<p>[markup.goldmark.renderer]<br>
+unsafe = true</p>
+</blockquote>
+<p>我不理解為什麼預設是 disable 行內 html啦，也不理解為什麼是 unsafe = true 這個看起來這麼可怕的東西哈哈哈哈哈哈😅</p>
+</li>
+<li>
+<p>Page Bundles<br />
+hugo產出網頁時用到的圖片需要放在 <code>static</code> 這個資料夾下面，但當我寫了兩篇網誌之後我就覺得這個方法很弔詭(?)。放在 <code>static</code> 下的資料在你渲染成靜態網頁時全部都會直接放在 <code>root</code> 資料夾裡面，為了不讓網誌的圖片散落在根目錄下我開了 <code>image</code> 這個資料夾存放，但這很不符合我平常整理檔案的原則，而且如果沒有一開始就把命名規則都規劃好的話，之後文章多了整理或修改都會很麻煩。<br /> <br />後來我發現 littlebookboy <a href="https://ithelp.ithome.com.tw/articles/10244332" target="_blank" rel="noopener">Day 13. Hugo Content - Section 與 Page Bundle</a>
+ 這篇文章，也可以參考 hugo 官方的 <a href="https://gohugo.io/content-management/page-bundles/" target="_blank" rel="noopener">Page Bundles</a>
+。總之，我把 <code>blog</code> 下的每一篇文章都獨立成一個資料夾，資料夾直接命名為你要設定的網址名稱，然後在該資料夾下建立 <code>index.md</code> 來產出內容，圖片跟檔案都放在同一個資料夾內，直接用 markdown 語法放檔案名稱就可以了！</p>
+</li>
+<li>
+<p>在 List 頁面使用 bundle source 的圖片<br />
+接續上面一項，如果把圖片都放在子資料夾裡面的話，那如果你的主題樣式有需要在 list 放圖片時該怎麼辦？我參考了 <a href="https://discourse.gohugo.io/t/get-image-from-page-bundles-to-display-in-list-page/41172" target="_blank" rel="noopener">jmooring</a>
+ 的回答，以相同的規則命名會在 List 出現的封面圖，我是命名為 <code>xxx-cover</code>，然後在 <code>layout</code> 資料夾中設定 <code>list</code> 的那一個檔案中，將原本的圖片變數改為 <code> {{ with .Resources.GetMatch &quot;*cover.*&quot; }}</code>，就完成了～</p>
+</li>
+<li>
+<p>Gitgub Pages 上的 favicon<br />我在 Freepik 找了一個可愛的貓貓用電腦當我的 favicon，但 push 到 GitHub Pages 之後他消失了&hellip;🥲 後來發現問題應該是 GitHub Pages 的 favicon 不能放在根目錄下的關係，我在 <code>static</code> 下新增一個資料夾，將原本放在裡面的 favicon 移到子資料夾後改 favicon 路徑再 push 一次就成功顯示囉！<br /> <img src="kitty-favicon.jpeg" alt="可愛貓貓"></p>
+</li>
+<li>
+<p>想在10點以內完成可能嗎？<br />看來是不可能，關於我與 github 的糾纏好像可以獨立成一篇，那就先這樣，我累了QQ</p>
+</li>
+</ol>
+<p>我用這個主題是想要用他的主要佈局架構，css 的細節還沒有調整，目前文章看起來還有點不太順眼，留言也還是預設的樣子，之後再慢慢來吧～</p>
+ 
+    <h5 class="text-sm flex items-center flex-wrap" style="margin: 50px 0px 50px 0px;">
+      <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#60a5fa" class="bi bi-tags-fill"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> 
+  <path d="M2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2zm3.5 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path> 
+      <path d="M1.293 7.793A1 1 0 0 1 1 7.086V2a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l.043-.043-7.457-7.457z"></path> </g></svg>&nbsp;&nbsp;
+      
+      <div  style="color:white; background-color:#60a5fa; float: left; margin: 0px 5px 0px 0px; padding: 0px 6px 0px 4px; border-radius: 5px;"><a href="https://mikaka.me/tags/hugo/" style="color:white; text-decoration:none;">&bull;&nbsp;hugo</a></div>
+      
+      <div  style="color:white; background-color:#60a5fa; float: left; margin: 0px 5px 0px 0px; padding: 0px 6px 0px 4px; border-radius: 5px;"><a href="https://mikaka.me/tags/blog/" style="color:white; text-decoration:none;">&bull;&nbsp;blog</a></div>
+      
+      <div  style="color:white; background-color:#60a5fa; float: left; margin: 0px 5px 0px 0px; padding: 0px 6px 0px 4px; border-radius: 5px;"><a href="https://mikaka.me/tags/github/" style="color:white; text-decoration:none;">&bull;&nbsp;github</a></div>
+      
+    </h5>
+  </article>
+<div class="prose lg:prose-lg mx-auto my-8">
+  
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "mikaka" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+</div>
+<div class="bg-blue-100 dark:bg-gray-900">
+  <div class="container px-4 py-12 mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    <div>
+      <div class="text-2xl font-bold mb-2">Find me here</div>
+      <p class="opacity-60">話很多，懶得說。</p>
+    </div>
+
+    <ul class="flex justify-center gap-x-3 flex-wrap gap-y-2">
+      
+
+      
+      <li>
+        <a
+          href="https://twitter.com/mika_kka"
+          target="_blank"
+          rel="noopener"
+          aria-label="Twitter"
+          class="p-1 inline-block rounded-full border border-transparent text-gray-500 hover:text-gray-800 hover:border-gray-800 cursor-pointer transition-colors dark:text-gray-600 dark:hover:border-gray-300 dark:hover:text-gray-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"
+            />
+          </svg>
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li>
+        <a
+          href="https://www.youtube.com/channel/UCBLqnjxZmp9oNvy2VZWG6WQ"
+          target="_blank"
+          rel="noopener"
+          aria-label="YouTube"
+          class="p-1 inline-block rounded-full border border-transparent text-gray-500 hover:text-gray-800 hover:border-gray-800 cursor-pointer transition-colors dark:text-gray-600 dark:hover:border-gray-300 dark:hover:text-gray-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-brand-youtube"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <circle cx="12" cy="12" r="9" />
+            <path d="M10 9l5 3l-5 3z" />
+          </svg>
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li>
+        <a
+          href="https://www.instagram.com/mi.ka.kka/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Instagram"
+          class="p-1 inline-block rounded-full border border-transparent text-gray-500 hover:text-gray-800 hover:border-gray-800 cursor-pointer transition-colors dark:text-gray-600 dark:hover:border-gray-300 dark:hover:text-gray-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-brand-instagram"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
+            <circle cx="12" cy="12" r="9" />
+            <path d="M10 9l5 3l-5 3z" />
+          </svg>
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li>
+        <a
+          href="https://www.facebook.com/profile.php?id=100088055116518"
+          target="_blank"
+          rel="noopener"
+          aria-label="Facebook"
+          class="p-1 inline-block rounded-full border border-transparent text-gray-500 hover:text-gray-800 hover:border-gray-800 cursor-pointer transition-colors dark:text-gray-600 dark:hover:border-gray-300 dark:hover:text-gray-300"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+          </svg>
+        </a>
+      </li>
+      
+
+      
+
+      
+    </ul>
+  </div>
+</div>
+
+    </main><footer class="container p-6 mx-auto flex justify-between items-center">
+  <span class="text-sm font-light">
+    
+    Copyright © 2023 - Mika · All rights reserved
+    
+  </span>
+  <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5"
+      stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M18 15l-6 -6l-6 6h12" />
+    </svg>
+  </span>
+</footer>
+
+<div class="search-ui absolute top-0 left-0 w-full h-full bg-white dark:bg-gray-800 hidden">
+  <div class="container max-w-3xl mx-auto p-12">
+    <div class="relative">
+      <div class="my-4 text-center text-2xl font-bold">Search</div>
+
+      <span class="p-2 absolute right-0 top-0 cursor-pointer close-search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </span>
+    </div>
+
+    <input type="search" class="py-2 px-3 w-full dark:text-black border dark:border-transparent"
+      placeholder="Enter search query" />
+
+    <div class="search-results text-lg font-medium my-4 hidden">Results</div>
+    <ul class="search-list my-2">
+
+    </ul>
+
+    <div class="no-results text-center my-8 hidden">
+      <div class="text-xl font-semibold mb-2">No results found</div>
+      <p class="font-light text-sm">Try adjusting your search query</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="https://mikaka.me/js/scripts.min.js"></script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N0P6WLMPMK"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-N0P6WLMPMK', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+
+
+<script>
+  const mobileMenuButton = document.querySelector('.mobile-menu-button')
+  const mobileMenu = document.querySelector('.mobile-menu')
+  function toggleMenu() {
+    mobileMenu.classList.toggle('hidden');
+    mobileMenu.classList.toggle('flex');
+  }
+  if(mobileMenu && mobileMenuButton){
+    mobileMenuButton.addEventListener('click', toggleMenu)
+  }
+</script>
+</body>
+</html>

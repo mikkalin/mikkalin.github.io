@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 咪卡咔</title>
+    <link>https://mikaka.me/categories/</link>
+    <description>Recent content in Categories on 咪卡咔</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mikaka.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://mikaka.me/categories/blog/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikaka.me/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>開箱</title>
+      <link>https://mikaka.me/categories/%E9%96%8B%E7%AE%B1/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:35 +0800</pubDate>
+      
+      <guid>https://mikaka.me/categories/%E9%96%8B%E7%AE%B1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>健康</title>
+      <link>https://mikaka.me/categories/%E5%81%A5%E5%BA%B7/</link>
+      <pubDate>Sun, 01 Oct 2023 11:15:54 +0800</pubDate>
+      
+      <guid>https://mikaka.me/categories/%E5%81%A5%E5%BA%B7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>閱讀心得</title>
+      <link>https://mikaka.me/categories/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97/</link>
+      <pubDate>Sun, 01 Oct 2023 11:15:54 +0800</pubDate>
+      
+      <guid>https://mikaka.me/categories/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2023首爾行</title>
+      <link>https://mikaka.me/categories/2023%E9%A6%96%E7%88%BE%E8%A1%8C/</link>
+      <pubDate>Fri, 07 Jul 2023 23:18:26 +0800</pubDate>
+      
+      <guid>https://mikaka.me/categories/2023%E9%A6%96%E7%88%BE%E8%A1%8C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>韓國生活</title>
+      <link>https://mikaka.me/categories/%E9%9F%93%E5%9C%8B%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Tue, 20 Jun 2023 00:26:34 +0800</pubDate>
+      
+      <guid>https://mikaka.me/categories/%E9%9F%93%E5%9C%8B%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3C</title>
+      <link>https://mikaka.me/categories/3c/</link>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikaka.me/categories/3c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>料理</title>
+      <link>https://mikaka.me/categories/%E6%96%99%E7%90%86/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikaka.me/categories/%E6%96%99%E7%90%86/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

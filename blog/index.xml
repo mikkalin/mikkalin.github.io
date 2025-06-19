@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on 咪卡咔</title>
+    <link>https://mikaka.me/blog/</link>
+    <description>Recent content in Blog on 咪卡咔</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mikaka.me/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[RPA] Automa 指定發送表格/變數內容</title>
+      <link>https://mikaka.me/blog/automa-variable/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikaka.me/blog/automa-variable/</guid>
+      <description>&lt;p&gt;工作上需要設定一些提醒給夥伴，公司內部用的通訊軟體有提供在群組內配置系統帳號並提供 webhook 可以用 http request 發送&lt;/p&gt;
+&lt;p&gt;考量到目標網頁需要登入，用 RPA 的方式最快，最後鎖定了 Automa 來建立 flow&lt;/p&gt;
+&lt;p&gt;前半部資料擷取都沒有什麼問題，但後面需要發送訊息到群組時遇到了障礙，最終找到了解法所以紀錄一下免得之後又忘了&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[開箱] 2024 好味小姐 x 營養師品瑄：今天吃什麼．貓日曆</title>
+      <link>https://mikaka.me/blog/2024-lady-flavor-calendar/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:35 +0800</pubDate>
+      
+      <guid>https://mikaka.me/blog/2024-lady-flavor-calendar/</guid>
+      <description>&lt;p&gt;身為好味小姐的忠實觀眾＆聽眾，雖然沒有養貓但也不會錯過每年的桌曆，禮拜四晚上滑手機滑到一半，看到品瑄品牌的line推播，因為知道好味家的東西常常秒殺，所以毫不猶豫馬上點開手刀下單！感謝我自己的迅速（？）因為現在已經送完啦！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[閱讀] 蘇琮祺《心態致瘦》讀後心得</title>
+      <link>https://mikaka.me/blog/mindset-slimming/</link>
+      <pubDate>Sun, 01 Oct 2023 11:15:54 +0800</pubDate>
+      
+      <guid>https://mikaka.me/blog/mindset-slimming/</guid>
+      <description>&lt;p&gt;完蛋我的三分鐘熱度又要開始了嗎？本網站上一次更新已經是七月初的事情了，這篇文章的草稿日期在 7/25，寫了開頭就因為開始要進辦公室而荒廢了下來 XD 希望至少能維持一個月一更吧（原本還想要一週一更呢），現在八月已經空在那了，九月也過完了，趁著連假最後一天趕快來把剩下的內容寫完吧QQ&lt;/p&gt;
+&lt;p&gt;那就以下正文開始！&lt;/p&gt;
+&lt;p&gt;七月中去圖書館時，路過展示架剛好瞄到蘇琮祺醫師的《心態致瘦》這本書，一看到書名我還想著又是什麼心靈雞湯書吧！我不是很喜歡雞湯書，時常覺得裡面講的道理我都懂，為什麼要靠你告訴我？但那天不知道為什麼就停下腳步翻閱了一下，發現「疑？好像有點什麼。」但當天因為沒有時間細讀，加上展示中的書不可外借，於是我只是拍了張封面照就離開了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;mindset-slimming.jpg&#34; alt=&#34;心態致瘦&#34;&gt;&lt;/p&gt;
+&lt;div style = &#34;color: #60a5fa; text-align: center&#34; &gt;在圖書館新書展示架上的《心態致瘦》&lt;/div&gt;
+&lt;p&gt;回家與愛麗絲們分享書籍封面時，兩位愛麗絲也是「這雞湯書吧？」的態度回覆我，只能說我們能當朋友是有原因的（欸）&lt;/p&gt;
+&lt;p&gt;後來過了兩天又到了圖書館，想了想還是把《心態致瘦》這本還不能外借的書在館內快速地看完了。我覺得他裡面提出來的概念很大一部分跟我之前成功瘦15公斤的過程是一致的，這也是我當時為什麼能減肥成功的原因吧。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[首爾旅遊] 戰鬥力太弱很可惜的廣藏市場</title>
+      <link>https://mikaka.me/blog/kwangjang-market/</link>
+      <pubDate>Fri, 07 Jul 2023 23:18:26 +0800</pubDate>
+      
+      <guid>https://mikaka.me/blog/kwangjang-market/</guid>
+      <description>&lt;p&gt;廣藏市場是我朋友行前就指定要去的地方之一，因為考慮到我們只在台灣換了少少的韓幣（15萬）還需要去明洞換一些錢，所以我把明洞安排在第二天的行程，廣藏市場離明洞不遠，正好是個安排早午餐的好去處！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[首爾旅遊] 酷航初體驗！晚去晚回的桃園-仁川航班</title>
+      <link>https://mikaka.me/blog/scoot-tpe-to-icn/</link>
+      <pubDate>Wed, 05 Jul 2023 22:48:39 +0800</pubDate>
+      
+      <guid>https://mikaka.me/blog/scoot-tpe-to-icn/</guid>
+      <description>&lt;p&gt;這次的首爾行其實是很突然地接受了朋友的邀請，所以機票就直接選了朋友搭乘的航班，只是朋友是一、二月買的，我五月才買，價格貴了三千多🤣&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[韓國] 將新韓銀行帳戶身份文件從外國人登錄證轉換為護照</title>
+      <link>https://mikaka.me/blog/switch-shinhan-bank-account-from-arc-no-to-passport-no/</link>
+      <pubDate>Tue, 20 Jun 2023 00:26:34 +0800</pubDate>
+      
+      <guid>https://mikaka.me/blog/switch-shinhan-bank-account-from-arc-no-to-passport-no/</guid>
+      <description>&lt;p&gt;2014 年從韓國回台灣的時候也是萬萬沒想到竟然會時隔九年才再度踏上韓國國土，這次臨出發前翻出了以前唸書時申請的銀行存摺，抱持著說不定還可以用呢？的心態一起帶著他飛首爾了，沒想到真的還可以補摺呢&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[3C] HyRead3 app 三種電子書形式的筆記方式</title>
+      <link>https://mikaka.me/blog/hyread3-on-ipad/</link>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikaka.me/blog/hyread3-on-ipad/</guid>
+      <description>&lt;p&gt;買了 iPad 之後偶爾會用 HyRead3 這個 APP 登入圖書館看電子雜誌，在看英文學習雜誌的時候也很習慣會用 apple pencial 在上面寫答案。前幾天心血來潮借了一本跟網路行銷有關的書，結果發現竟然不能劃記筆記！只能把頁面加入書籤，查了網路資料跟詢問客服之後才搞懂他們針對電子書的三種不同格式有不同的筆記方式～&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Blog] 用Hugo架設網誌成功了...嗎？</title>
+      <link>https://mikaka.me/blog/hugo-setting/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikaka.me/blog/hugo-setting/</guid>
+      <description>&lt;p&gt;我成功了嗎？
+如果有看到這篇文章就表示我成功了YA！&lt;/p&gt;
+&lt;p&gt;因為種種原因最後決定嘗試以 hugo 來架設網站，身為一個只會一點點微薄 css 跟 html 語法的人，所有的過程只能依靠 Google 大神（不過後來我有 Bandy 大神幫我，感謝 Bandy 拯救迷途的我QQ），這篇簡單總結一下一個程式小白（也可以稱為是文盲）的我在架設路上遇到的坑吧🥲&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[料理] 全家的 Fami 煮煮粽子</title>
+      <link>https://mikaka.me/blog/familymart-rice-dumpling/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikaka.me/blog/familymart-rice-dumpling/</guid>
+      <description>&lt;p&gt;我家附近的全家偶爾會在群組內辦活動，我感覺自己還蠻常獲獎的，上次抽到砂糖橘這次抽到 Fami 煮煮的粽子🤣&lt;/p&gt;
+&lt;p&gt;不知道是不是把運氣都用在全家了所以才一直沒有中樂透（欸）&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[3C] iMac 偽開箱＆網路設定問題</title>
+      <link>https://mikaka.me/blog/imac-unbox-and-internet-issue/</link>
+      <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikaka.me/blog/imac-unbox-and-internet-issue/</guid>
+      <description>&lt;p&gt;因為一個說來話很長的原因，要去最近購物運很差的K友人家幫她設定新買的 iMac 順便約飯（發現約飯的兩位都是K友人，那我們就稱這位比較年少的 iMac 新用戶為友人K二好了（喂）。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

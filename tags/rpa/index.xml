@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RPA on 咪卡咔</title>
+    <link>https://mikaka.me/tags/rpa/</link>
+    <description>Recent content in RPA on 咪卡咔</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mikaka.me/tags/rpa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[RPA] Automa 指定發送表格/變數內容</title>
+      <link>https://mikaka.me/blog/automa-variable/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikaka.me/blog/automa-variable/</guid>
+      <description>&lt;p&gt;工作上需要設定一些提醒給夥伴，公司內部用的通訊軟體有提供在群組內配置系統帳號並提供 webhook 可以用 http request 發送&lt;/p&gt;
+&lt;p&gt;考量到目標網頁需要登入，用 RPA 的方式最快，最後鎖定了 Automa 來建立 flow&lt;/p&gt;
+&lt;p&gt;前半部資料擷取都沒有什麼問題，但後面需要發送訊息到群組時遇到了障礙，最終找到了解法所以紀錄一下免得之後又忘了&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
